@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+        p {
+            width: 70%;
+            background-color: beige;
+            box-sizing: border-box;
+        }
+        .piros-keretes {
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+        border: 2px solid red;
+        
+        width: 60%;
+
+        /* margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10px;
+        margin-bottom: 10px; */
+        margin: 100px 10% 200px 30%;
+        
+
+        }
+
+        .negyszin-keretes {
+            border-top-color: red;
+            border-top-width: 5px;
+            border-top-style: dotted;
+
+            border-bottom: 2px dashed blue;
+            border-left: 2px solid green;
+            border-right: 2px solid magenta;
+
+            /* margin: 40px; */
+            
+            padding: 10px 20px 30px 40px;
+            
+        }
+
+        .beige-background-color {
+            background-color: beige;
+        }
+
+        .lightcyan-background-color {
+            background-color: lightcyan;
+        }
+    </style>
+
+    
+</head>
+
+<body>
+    <p class="piros-keretes beige-background-color">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium rerum nemo, aliquam ipsam facilis
+        blanditiis. Dicta commodi, recusandae mollitia, natus cumque ipsum doloremque architecto magni iste vitae, earum
+        ut quos.
+    </p>
+    <p class="negyszin-keretes lightcyan-background-color">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur, minus hic rem ad molestiae
+        reprehenderit soluta cum totam blanditiis repellat odit cumque. Iste eligendi possimus voluptas, minus corrupti
+        beatae.
+    </p>
+</body>
+
+</html>
