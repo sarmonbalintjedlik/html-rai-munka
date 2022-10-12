@@ -1,0 +1,19 @@
+ul li { /* minden olyan li tag, amelyik ul tag-en belül található */
+    list-style-type: square;
+}
+
+.right-arrow {
+    list-style-image: url('right-arrow.png');
+}
+
+ol li {
+    list-style-type: upper-roman;
+}
+
+.color-red {
+    color: #f00;
+}
+
+#head-ol {
+    text-align:center;
+}
