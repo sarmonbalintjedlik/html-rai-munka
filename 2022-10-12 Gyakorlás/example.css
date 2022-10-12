@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.min-padding {
+    padding: 10px 50px;
+}
+
+.blue-border {
+    /* border: 2px dotted #0000ff; */
+    border: 2px dotted #00f;
+    /* pl.: #123 -->  #112233 */
+}
+
+p {
+    color: #555
+}
+
+#photo-slo {
+    width: 156px;
+    margin-left: auto;
+    margin-right: auto;         
+    /* fent, lent 0px, jobb-bal: automatikus */
+    
+
+}
