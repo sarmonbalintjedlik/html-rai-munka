@@ -1,0 +1,29 @@
+body,html {
+	background-color	: orange;
+	color				: black;
+	margin				: 0px;
+	padding				: 0px;
+	font-family			: verdana, arial, sans serif;
+}
+
+.container {
+	width				: 960px;
+}
+
+p {
+	text-indent			: 30px;
+}
+
+ul {
+	margin-left			: 100px;
+}
+
+li {
+	margin-bottom		: 5px;
+}
+
+
+table{
+	margin-left: 100px;
+}
+

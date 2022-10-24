@@ -1,0 +1,23 @@
+p, li {
+    text-align: justify;
+}
+
+p.keretes {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 8px;
+}
+
+#munkassag .keretes {
+    background-color: aqua;
+}
+
+.iskola {
+    color: darkblue;
+}
+
+.munka {
+    color: darkgreen;
+}

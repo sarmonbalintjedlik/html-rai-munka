@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(Hatter.png);
+    background-size: contain;
+}
+
+.kek {
+    color: blue;
+}
+
+.dolt {
+    font-style: italic;
+}
+
+.piros {
+    color: red;
+}
+
+.felkover {
+    font-weight: bold;
+}
+
+#szendvics {
+    width: 40%;
+    margin-left: 30%;
+}
+
+#info-tabla {
+    border-collapse: collapse;
+    border: 3px solid blue;
+    background-color: #ddd;
+}
+
+#info-tabla td {
+    border: 1px solid blue;
+    padding: 8px 20px;
+}
